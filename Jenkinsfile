@@ -9,7 +9,7 @@ pipeline {
 			sh "go build"
 			sh "sleep 60"
 			echo "123"
-			date
+			sh "date"
 			}
 		
 		}
